@@ -1,0 +1,60 @@
+/* General Styling */
+body, main {
+    font-family: Poppins, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  header {
+    background-color: #002548;
+    color: white; 
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .box {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #002548;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Media queries */
+  @media (max-width: 860px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+      gap: 20px;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
