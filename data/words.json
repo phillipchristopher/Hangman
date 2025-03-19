@@ -28,5 +28,6 @@
   {"word": "canuck", "hint": "A player on a Vancouver-based hockey team"},
   {"word": "oiler", "hint": "A player on an Edmonton-based hockey team"},
   {"word": "boreal", "hint": "The vast forest covering much of Canada"},
-  {"word": "snowshoe", "hint": "A tool used to walk over deep snow"}
+  {"word": "snowshoe", "hint": "A tool used to walk over deep snow"},
+  {"word": "alberta", "hint": "The province beside BC"}
 ]
